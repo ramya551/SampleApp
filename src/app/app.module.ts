@@ -6,13 +6,14 @@ import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { AppRoutingModule }  from './app-routing.module';
+import { ProductFormComponent } from './product-form/product-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    InventoryComponent
-
+    InventoryComponent,
+    ProductFormComponent
   ],
   imports: [
     BrowserModule,
