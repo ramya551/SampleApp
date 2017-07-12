@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { appService } from './app.service';
+import {PaginatePipe, PaginationService} from 'ng2-pagination';
 
 @Component({
   selector: 'app-root',
