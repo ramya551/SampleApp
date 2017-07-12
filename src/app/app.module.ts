@@ -7,6 +7,7 @@ import { ProductComponent } from './product/product.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { AppRoutingModule }  from './app-routing.module';
 import { ProductFormComponent } from './product-form/product-form.component';
+import { Ng2PaginationModule } from 'ng2-pagination';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductFormComponent } from './product-form/product-form.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2PaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
